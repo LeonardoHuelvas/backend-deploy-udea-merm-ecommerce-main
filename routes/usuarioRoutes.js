@@ -14,6 +14,7 @@ import {
 } from "../controllers/usuarioController.js";
 // middleware para validar el token
 import checkAuth from "../middleware/authMiddleware.js";
+const checkAuth = require("../middleware/authmiddleware.js");
 
 const router = express.Router();
 
